@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Legal Hackers Mackenzie - Dúvidas</title>
+<style>
+  /* Estilos de CSS para o site */
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    color: #333;
+  }
+  header {
+    background-color: #ff0000;
+    color: #ffffff;
+    text-align: center;
+    padding: 2rem;
+  }
+  .imagem-fundo{
+    background-image: url(img/fundo.png);
+    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  .logo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  .logo img {
+    display: flex;
+    width: 70%;
+    margin-right: 1rem;
+    max-height: 50%;
+  }
+  .faq {
+    padding: 1rem;
+    background-color: #fff;
+    color: #333333;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease;
+  }
+  h2 {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+    color: #ff0000;
+  }
+  .video-container {
+    position: relative;
+    padding-top: 31.25%; /* 16:9 aspect ratio */
+    border-radius: 10px;
+    /* overflow: hidden; */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  .faq:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  }
+  .faq:hover .overlay {
+    opacity: 1;
+  }
+  .footer {
+    text-align: center;
+    margin-top: 4rem;
+    padding: 2rem 0;
+    background-color: #ff0000;
+    color: #fff;
+  }
+  .section {
+    margin: 4rem 0;
+  }
+
+  .cor-texto-rodape {
+    color: black;
+  }
+</style>
+</head>
+<body class="imagem-fundo">
+<header>
+  <div class="container">
+    <div class="logo">
+      <img src="img/cabecalho.png" alt="Legal Hackers Logo">
+    </div>
+  </div>
+</header>
+<main>
+  <div class="container">
+    <div class="section">
+      <div class="faq" id="question1">
+        <h2>1. Quais dados pessoais são tratados?</h2>
+        <div class="video-container">
+          <iframe id="video1" src="https://www.youtube.com/embed/70043PDoJKE?si=23KLXGnEFX1pNnPN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+      </div>
+      <div class="faq" id="question2" >
+        <h2 class="cor-perguntas-videos">2. Por que e para qual finalidade tratamos dados pessoais?</h2>
+        <div class="video-container">
+          <iframe id="video2" src="https://www.youtube.com/embed/2tqZb_dXXBU?si=KWGButuf1Mfa7wVH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+      </div>
+     <div class="faq" id="question3" >
+        <h2>3. Quanto tempo os dados pessoais são mantidos?</h2>
+        <div class="video-container">
+          <iframe id="video3" src="https://www.youtube.com/embed/R4rlEmtfO8A?si=tLGP8wcnwTW-Sj07" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+          <div class="faq" id="question4">
+        <h2>4. Com quem compartilhamos seus dados?</h2>
+        <div class="video-container">
+          <iframe id="video4" src="https://www.youtube.com/embed/QJtLUaGUaSg?si=PCLlHixtSmrKlvt_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+      </div>
+      <div class="faq" id="question5" >
+        <h2>5. Quais são e como exercer meus direitos em relação aos meus dados pessoais?</h2>
+        <div class="video-container">
+          <iframe id="video5" src="https://www.youtube.com/embed/56YyMiB6K80?si=zOkiiSg8607eFCzX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+      </div>
+      <div class="faq" id="question6" >
+        <h2></h2>
+        <div class="video-container">
+          <iframe id="video6" src=""
+        </div>
+      </div>
+    </div>
+    <div class="section">
+      <div class="highlight">Sobre LGPD</div>
+      <p class="highlight">A Lei Geral de Proteção de Dados (LGPD) é uma legislação brasileira que regula a coleta, o tratamento e o compartilhamento de dados pessoais. Ela visa proteger a privacidade e os direitos dos indivíduos, garantindo que suas informações sejam usadas de forma transparente e segura.</p>
+    </div>
+    <div class="section">
+      <div class="highlight">Política de Privacidade</div>
+      <p>
+        Nossa política de privacidade está em conformidade com as diretrizes da LGPD. Comprometemo-nos a proteger os dados pessoais que coletamos e a utilizá-los apenas para os fins explicitamente informados. Garantimos que seus dados serão tratados com segurança e não serão compartilhados com terceiros sem seu consentimento.
+      </p>
+    </div>
+  </div>
+</main>
+<footer class="footer">
+  <div class="container">
+    <p class="cor-texto-rodape">
+      Conheça mais sobre Legal Hackers Mackenzie e explore nossos vídeos informativos sobre Direito e Tecnologia, LGPD e Política de Privacidade.
+    </p>
+  </div>
+</footer>
+<script>
+  const questions = document.querySelectorAll('.faq');
+
+  function animateElements() {
+    questions.forEach((question, index) => {
+      setTimeout(() => {
+        question.style.opacity = 1;
+        question.style.transform = 'translateY(0)';
+      }, index * 300);
+    });
+  }
+
+  function toggleVideo(videoId) {
+    const videoFrame = document.getElementById(videoId);
+    if (videoFrame.src === '') {
+      videoFrame.src = 'https://www.youtube.com/embed/YOUR_VIDEO_ID'; // Substitua YOUR_VIDEO_ID pelo ID do vídeo correspondente
+    } else {
+      videoFrame.src = '';
+    }
+  }
+
+  window.addEventListener('load', animateElements);
+</script>
+</body>
+</html>
+
+       
